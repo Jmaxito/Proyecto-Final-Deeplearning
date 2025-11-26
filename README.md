@@ -17,7 +17,7 @@ El objetivo es evaluar el rendimiento de arquitecturas simples vs. redes profund
 ---
 
 ## Estructura del Dataset
-
+El dataset se compone de 4312 imagenes, Train:3019, Val:862, Test:431. Cada una contiene las clases: Calss0_Sorghum, Class1_Grass, Class2_BroadLeafWeed
 El dataset debe organizarse en formato estándar de clasificación:
 
 ├── train/
