@@ -3,9 +3,9 @@ Modelos CNN y ResNet18 desde cero
 
 Este repositorio contiene el pipeline completo para entrenar, evaluar y comparar modelos de **clasificación de imágenes agrícolas**, utilizando el dataset **SorghumWeedDataset_Classification**, el cual contiene imágenes de:
 
-- **Clase 0** – Plántulas de sorgo  
+- **Clase 0** – Plantas de sorgo  
 - **Clase 1** – Pastos  
-- **Clase 2** – Malezas de hoja ancha  
+- **Clase 2** – Malezas
 
 Se implementaron dos arquitecturas desde cero:
 
