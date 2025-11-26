@@ -19,8 +19,19 @@ El objetivo es evaluar el rendimiento de arquitecturas simples vs. redes profund
 ## 📁 Estructura del Dataset
 
 El dataset debe organizarse en formato estándar de clasificación:
-
-
+dataset/
+├── train/
+│ ├── class0/
+│ ├── class1/
+│ └── class2/
+├── val/
+│ ├── class0/
+│ ├── class1/
+│ └── class2/
+└── test/
+├── class0/
+├── class1/
+└── class2/
 
 Cada imagen fue redimensionada a **224 × 224 px**.
 
