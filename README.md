@@ -97,7 +97,7 @@ Los resultados reportados son los obtenidos tras el entrenamiento completo en el
 | Loss (test) | **0.3907** | 0.4348 |
 | Tamaño del modelo | Pequeño | Grande |
 | Riesgo de Overfitting | Bajo | Medio |
-| Velocidad de entrenamiento | Rápida | Más lenta |
+| Velocidad de entrenamiento | Lenta | Rápida |
 | Generalización | **Alta** | Buena |
 | Complejidad | Baja | Alta |
 
