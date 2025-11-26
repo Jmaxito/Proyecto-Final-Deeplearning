@@ -116,7 +116,7 @@ Se recomienda probar este proyecto con:
 
 ---
 
-# 🚀 Cómo Reproducir el Proyecto
+#  Cómo Reproducir el Proyecto
 
 ### 1. Clonar el repositorio:
 
