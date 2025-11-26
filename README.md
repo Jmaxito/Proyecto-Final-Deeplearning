@@ -16,7 +16,7 @@ El objetivo es evaluar el rendimiento de arquitecturas simples vs. redes profund
 
 ---
 
-## 📁 Estructura del Dataset
+## Estructura del Dataset
 
 El dataset debe organizarse en formato estándar de clasificación:
 
@@ -48,9 +48,9 @@ Cada imagen fue redimensionada a **224 × 224 px**.
 
 ---
 
-# 📌 Modelos Utilizados
+# Modelos Utilizados
 
-## 🔹 1. CNN (Keras – Training from Scratch)
+##  1. CNN (Keras – Training from Scratch)
 
 Arquitectura simple con:
 - Convoluciones 2D
@@ -58,7 +58,7 @@ Arquitectura simple con:
 - Dropout
 - Capa densa final softmax
 
-## 🔹 2. ResNet18 (PyTorch – Training from Scratch)
+##  2. ResNet18 (PyTorch – Training from Scratch)
 
 Implementación manual de:
 - BasicBlock (bloques residuales)
@@ -67,26 +67,26 @@ Implementación manual de:
 
 ---
 
-# 📊 Resultados
+#  Resultados
 
 Los experimentos se realizaron en Google Colab (GPU cuando disponible).  
 Los resultados reportados son los obtenidos tras el entrenamiento completo en el *set de prueba*.
 
-## 🔥 Métricas Finales
+##  Métricas Finales
 
-### ✔ CNN (Keras)
+###  CNN (Keras)
 - **Accuracy entrenamiento:** 0.9038  
 - **Loss entrenamiento:** 0.2962  
 - **Accuracy test:** 0.8724  
 - **Loss test:** 0.3907  
 
-### ✔ ResNet18 (PyTorch desde cero)
+###  ResNet18 (PyTorch desde cero)
 - **Accuracy test:** 0.8353  
 - **Loss test:** 0.4348  
 
 ---
 
-# 📈 Tabla Comparativa
+#  Tabla Comparativa
 
 | Característica | CNN (Keras) | ResNet18 (PyTorch – desde cero) |
 |----------------|-------------|----------------------------------|
@@ -103,7 +103,7 @@ Los resultados reportados son los obtenidos tras el entrenamiento completo en el
 
 ---
 
-# 🧪 Conclusiones
+#  Conclusiones
 
 - La **CNN**, a pesar de ser más pequeña y simple, logró **mejor generalización** que ResNet18 desde cero.  
 - La **ResNet18** demostró ser potente, pero al no utilizar transfer learning requiere más datos y regularización para alcanzar su máximo rendimiento.
